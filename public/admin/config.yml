@@ -6,10 +6,11 @@
 # Backend configuration (Production uses GitHub backend, Local dev uses Local backend)
 backend:
   name: github
-  repo: your-org-or-username/nocodetoolsranked
-  branch: main
+  repo: NGUYENHAOQUANG/test-Sveltia-CMS
+  branch: perf/optimize-performance
+  base_url: https://sveltia-cms-auth.smol.ai
 
-# Cho phép chỉnh sửa file trực tiếp ở Localhost khi chạy cùng decap-server
+# Bật local backend nếu muốn dùng decap-server ở localhost (nếu không bật decap-server thì sẽ tự dùng GitHub backend ở trên)
 local_backend: true
 
 # Thư mục lưu trữ media
